@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <h1 class="logo">LNT EVENTS</h1>
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#services">SERVICES</a>
+            <a href="#price">PRICE</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="#review">REVIEW</a>
+            <a href="#contact">CONTACT</a>
+            <a href="#booking">BOOKING</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="content">
+            <p class="subheading">WELCOME TO LNT EVENTS</p>
+            <h2 class="main-heading">LET'S ORGANIZE EVENTS WITH US <span class="heart">❤</span></h2>
+            <a href="#contact" class="btn">CONTACT US</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-banner">ABOUT US</div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/logo.png" alt="Event Setup">
+            </div>
+            <div class="about-text">
+                <h2>KNOW US</h2>
+                <p>"At LNT Events, we specialize in creating unforgettable moments. From weddings to corporate gatherings, our dedicated team ensures a seamless and spectacular experience. With a passion for creativity and precision, we bring your vision to life, making every event unique and extraordinary. Let us handle the details while you enjoy the celebration!"</p>
+                <a href="#" class="btn">EXPLORE</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="about-banner">Our Services</div>
+<section class="services" id="services>
+    <h2>SERVICES</h2>
+    <p>WE ORGANIZE, YOU CELEBRATE</p>
+    <p>"Some people look for a beautiful place. Others make a place beautiful."</p>
+    
+    <div class="slider">
+        <div class="slides">
+            <div class="slide" data-category="birthday">
+                <img src="https://thumbs.dreamstime.com/b/children-celebrate-birthday-28661974.jpg" alt="Birthday Decor">
+                <h3>BIRTHDAY DECOR</h3>
+            </div>
+            <div class="slide" data-category="marriage">
+                <img src="https://apis.xogrp.com/media-api/images/21989066-124d-11e4-843f-22000aa61a3e" alt="Marriage Reception">
+                <h3>MARRIAGE RECEPTION</h3>
+            </div>
+            <div class="slide" data-category="fashion">
+                <img src="http://3.bp.blogspot.com/-5joTn_E-Glc/ToL5HhRaw0I/AAAAAAAAAEc/kawLwxvRAAg/s1600/Indian+fashion+show+3.jpg" alt="Fashion Events">
+                <h3>FASHION EVENTS</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="prev">❮ Prev</button>
+        <button id="next">Next ❯</button>
+    </div>
+
+    <div id="banquet-section">
+        <!-- Banquet images will be shown here when a service is clicked -->
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+        <!-- Banquet List (Dynamic) -->
+        <div id="banquet-list" class="banquet-container"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LNT Events</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8e0d1;
+            text-align: center;
+        }
+        .pricing-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .pricing-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 250px;
+        }
+        .pricing-card h3 {
+            background: black;
+            color: hotpink;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .pricing-card h2 {
+            color: black;
+            margin: 15px 0;
+        }
+        .pricing-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .pricing-card ul li {
+            text-align: left;
+            padding: 5px 0;
+            font-size: 14px;
+        }
+        .choose-btn {
+            background: hotpink;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function showSuccessMessage(packageName) {
+            alert(packageName + " booking successful!");
+        }
+    </script>
+</head>
+<body>
+    <section class="pricing" id="price">
+        <h2>CHOOSE <span>PLAN</span></h2>
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <h3>PACKAGE 01</h3>
+                <h2>50,000</h2>
+                <ul>
+                    <li>✅ 6 HRS COVERAGE</li>
+                    <li>✅ BRIDAL SESSION</li>
+                    <li>✅ ENGAGEMENT SESSION</li>
+                    <li>✅ EDITED DIGITAL IMAGE</li>
+                    <li>✅ ONLINE GALLERY</li>
+                </ul>
+                <button class="choose-btn" onclick="showSuccessMessage('PACKAGE 01')">CHOOSE PLAN</button>
+            </div>
+            <div class="pricing-card">
+                <h3>PACKAGE 02</h3>
+                <h2>80,000</h2>
+                <ul>
+                    <li>✅ 8 HRS COVERAGE</li>
+                    <li>✅ BRIDAL SESSION</li>
+                    <li>✅ ENGAGEMENT SESSION</li>
+                    <li>✅ EDITED DIGITAL IMAGE</li>
+                    <li>✅ ONLINE GALLERY</li>
+                </ul>
+                <button class="choose-btn" onclick="showSuccessMessage('PACKAGE 02')">CHOOSE PLAN</button>
+            </div>
+            <div class="pricing-card">
+                <h3>PACKAGE 03</h3>
+                <h2>1,00,000</h2>
+                <ul>
+                    <li>✅ 8 HRS COVERAGE</li>
+                    <li>✅ BRIDAL SESSION</li>
+                    <li>✅ ENGAGEMENT SESSION</li>
+                    <li>✅ CUSTOM 8 X 8 ALBUM</li>
+                    <li>✅ EDITED DIGITAL IMAGE</li>
+                    <li>✅ ONLINE GALLERY</li>
+                </ul>
+		     <button class="choose-btn" onclick="showSuccessMessage('PACKAGE 02')">CHOOSE PLAN</button>
+            </div>
+
+		 <div class="pricing-card">
+                <h3>PACKAGE 04</h3>
+                <h2>2,50,000</h2>
+                <ul>
+                    <li>✅ 12 HRS COVERAGE</li>
+                    <li>✅ BRIDAL SESSION</li>
+                    <li>✅ ENGAGEMENT SESSION</li>
+                    <li>✅ EDITED DIGITAL IMAGE</li>
+                    <li>✅ ONLINE GALLERY</li>
+                </ul>
+                <button class="choose-btn" onclick="showSuccessMessage('PACKAGE 02')">CHOOSE PLAN</button>
+            </div>
+               
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+
+<!-- Gallery Section -->
+<section class="gallery" id="gallery">
+
+    <h2 class="section-title">EXPLORE <span>OUR STORY</span></h2>
+    
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="images/e1.jpeg" alt="Fashion Event">
+        </div>
+        <div class="gallery-item">
+            <img src="images/wed.jpg" alt="Wedding Ceremony">
+        </div>
+        <div class="gallery-item">
+            <img src="images/concert.jpg" alt="Concert Celebration">
+        </div>
+        <div class="gallery-item">
+            <img src="images/e4.jpg" alt="Corporate Event">
+        </div>
+        <div class="gallery-item">
+            <img src="images/bday.jpg" alt="Birthday Party">
+        </div>
+        <div class="gallery-item">
+            <img src="images/cel.jpg" alt="Private Celebration">
+        </div>
+    </div>
+</section>
+
+
+
+   
+
+   <!-- Review Section -->
+<section class="review" id="review">
+    <h2 class="section-title">OUR <span>REVIEWS</span></h2>
+    
+    <div class="review-container">
+        <div class="review-card">
+            <div class="reviewer-info">
+                <img src="images/reviewer1.jpeg" alt="Reviewer 1">
+                <h3>Tanvi Ahire</h3>
+            </div>
+            <p>"LNT Events made are event truly magical! Their attention to detail and dedication ensured everything was perfect. Highly recommend!"</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <div class="review-card">
+            <div class="reviewer-info">
+                <img src="images/reviewer2.jpeg" alt="Reviewer 2">
+                <h3>Lalita Pawar</h3>
+            </div>
+            <p>"Professional and creative! LNT Events handled our corporate event flawlessly. The team was amazing to work with."</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="review-card">
+            <div class="reviewer-info">
+                <img src="images/reviewer4.jpg" alt="Reviewer 3">
+                <h3>Nandini Jadhav</h3>
+            </div>
+            <p>"The birthday decor was stunning! LNT Events exceeded our expectations. Everything was elegant and beautifully arranged."</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .review {
+        text-align: center;
+        padding: 80px 60px;
+        background: #fce5cd;
+    }
+
+    .review .section-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #ff007f;
+        padding-bottom: 40px;
+    }
+
+    .review-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .review-card {
+        background: white;
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .reviewer-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .reviewer-info img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .review-card h3 {
+        font-size: 1.2rem;
+        color: #ff007f;
+    }
+
+    .review-card p {
+        font-size: 1rem;
+        color: #555;
+        margin: 10px 0;
+    }
+
+    .stars i {
+        color: gold;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .review-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+</style>
+
+
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Fill out the form below or reach out via email or phone.</p>
+            
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+                        
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Details -->
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><strong>Email:</strong> lntevents@gmail.com</p>
+                    <p><strong>Phone:</strong> +91 234 567 890</p>
+                    <p><strong>Address:</strong> 123 Main St, City, Country</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+       
+        <!-- Booking Section -->
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fde5d2;
+            text-align: center;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            background-color: #e91e63;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 30%;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #c2185b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Book an Appointment</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <input type="email" placeholder="Email" required>
+            <select required>
+                <option value="">-- Choose a Service --</option>
+                <option value="service1">Service 1</option>
+                <option value="service2">Service 2</option>
+            </select>
+            <input type="date" required>
+            <input type="time" required>
+            <button type="submit" class="btn">Book Now</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+    
+
+
+
+
+
+
+</body>
+</html>
+<button class="chat-btn" onclick="openChat()">Live Chat</button>
+
+<script>
+    function openChat() {
+        window.open('chat.html', '_blank');
+    }
+</script>
+
+<style>
+    .chat-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #ff007f;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .chat-btn:hover {
+        background: #d6006b;
+    }
+</style>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LNT Events</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fde5d2;
+            text-align: center;
+            padding: 50px;
+        }
+        .live-chat-btn {
+            background-color: #e91e63;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .live-chat-btn:hover {
+            background-color: #c2185b;
+        }
+    </style>
+</head>
+<body>
+    <h1>Let's Chat</h1>
+    <p>Having Queries No Worries!</p>
+
+    <button class="live-chat-btn" onclick="openLiveChat()">Live Chat</button>
+
+    <script>
+        function openLiveChat() {
+            window.open("chat.html", "_blank", "width=400,height=500");
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Social Media Links -->
+    <h4>Follow Us</h4>
+    <div class="social-links">
+        <a href="https://facebook.com" target="_blank">
+            <i class="fab fa-facebook"></i> Facebook
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <i class="fab fa-twitter"></i> Twitter
+        </a>
+        <a href="https://www.instagram.com/lnt050718?igsh=MXcwbWpzNmo5YnN2YQ==" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
